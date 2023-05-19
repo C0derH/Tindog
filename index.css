@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 534px;
+    margin: 0 auto;
+}
+
+/* Typography */
+h1,
+p {
+    line-height: 1;
+}
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #F8F8F8;
+    margin:  0 0 0.218em 0;
+}
+
+p {
+    font-size: 1.5rem;
+    color: #B7B7B7;
+    margin: 0;
+    
+
+}
+
+/* Layout */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25em 0.81em;
+}
+
+.nav-icon {
+    width: 41px;
+}
+
+.logo {
+    width: 84px;
+}
+
+main {
+    background: linear-gradient(180deg, #FFFFFF 0%, #F6F7FB 100%);
+}
+
+.profile-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) -11.44%, rgba(0, 0, 0, 0) 39.97%);
+    border-radius: 15px;
+    height: 751px;
+    background-size: cover;
+    width: 98%;
+    padding: 0 0 1em 0.75em ;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+.badge {
+    position: absolute;
+    width: 234px;
+    height: 116px;
+    transform: rotate(-30deg);
+    top: 55px;
+    left: 14px;
+
+}
+
+.decision-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    padding: 1.565em 0 ;
+}
+
+.btn {
+    background-color: #FFFFFF;
+    width: 91px;
+    height: 91px;
+    box-shadow: 0px 10px 20px #E9E9EA;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.reject-btn:hover,
+.reject-btn:active {
+    background-color: #FFE7EF;
+}
+
+.like-btn:hover,
+.like-btn:active {
+    background-color: #DBFFF4;;
+}
